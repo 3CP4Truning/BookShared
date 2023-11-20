@@ -1,4 +1,4 @@
-服务器维护完毕，现在一切正常
+服务器异常，维护中...
 捐赠地址:
 * BTC：35hAgA3GnfbX12opqqxuauxbcEMQZnonaa
 * USDT(仅支持TRX/TRC20)：TCR9MAoxA84AxdQCL6uohhXcH6cPnBNSrw
