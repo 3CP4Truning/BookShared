@@ -25,6 +25,6 @@ jobs:
           printf "APK_URL=%s\n" "$APK_URL" >> $GITHUB_ENV
           curl -X PATCH --location "${{ secrets.LOCATION }}" \
           -H "Content-Type: application/json" \
-          -d '{"url":"$URL","body":"$BODY","title":"$TITLE"}' \
+          -d '{"url":"${{ env.URL }}","body":"${{ env.BODY }}","title":"${{ env.TITLE }}"}' \
           --basic --user "${{ secrets.USER }}"
    
