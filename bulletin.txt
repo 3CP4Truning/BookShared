@@ -1,4 +1,4 @@
-服务器预计维护1小时，可能会提前恢复
+服务器已恢复
 捐赠地址:
 * BTC：35hAgA3GnfbX12opqqxuauxbcEMQZnonaa
 * USDT(仅支持TRX/TRC20)：TCR9MAoxA84AxdQCL6uohhXcH6cPnBNSrw
