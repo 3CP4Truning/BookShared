@@ -1,4 +1,4 @@
-服务器恢复正常
+服务器切节点中，稍后将会恢复
 捐赠地址:
 * BTC：35hAgA3GnfbX12opqqxuauxbcEMQZnonaa
 * USDT(仅支持TRX/TRC20)：TCR9MAoxA84AxdQCL6uohhXcH6cPnBNSrw
