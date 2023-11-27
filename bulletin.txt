@@ -1,4 +1,4 @@
-服务器维护结束
+服务器节点故障，切节点中...顺便临时维护一会
 捐赠地址:
 * BTC：35hAgA3GnfbX12opqqxuauxbcEMQZnonaa
 * USDT(仅支持TRX/TRC20)：TCR9MAoxA84AxdQCL6uohhXcH6cPnBNSrw
