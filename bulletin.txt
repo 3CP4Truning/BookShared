@@ -1,7 +1,7 @@
-服务器已恢复
+服务器临时维护，预计10-20分钟
 项目文档已更新，注意查看
 目前总用户400+
-11月收到捐赠金额(手动更新)：24.04u
+11月收到捐赠金额(手动更新)：28.04u
 捐赠地址:
 * BTC：35hAgA3GnfbX12opqqxuauxbcEMQZnonaa
 * USDT(仅支持TRX/TRC20)：TCR9MAoxA84AxdQCL6uohhXcH6cPnBNSrw
