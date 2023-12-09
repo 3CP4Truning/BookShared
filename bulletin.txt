@@ -1,9 +1,0 @@
-服务器已恢复
-项目文档已更新，注意查看
-目前总用户1k+
-12月收到捐赠金额(手动更新)：4.49u
-捐赠地址:
-* BTC：35hAgA3GnfbX12opqqxuauxbcEMQZnonaa
-* USDT(仅支持TRX/TRC20)：TCR9MAoxA84AxdQCL6uohhXcH6cPnBNSrw
-* 以太坊：0xe33CE05e26e9e95C6B6689F5d3751CaF5A1C5702
-* 蓝绿修改器:https://api2.bookshared.shop/donate
