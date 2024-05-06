@@ -1,3 +1,4 @@
+```java
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -33,6 +34,7 @@ public class MarkdownImageDetector {
         System.out.println("Image URL: " + urlHolder[0]); // Output: Image URL: null
     }
 }
+```
 Explanation of Changes:
 
 isImageLine Method:
@@ -63,7 +65,7 @@ In the main function, the urlHolder array is passed to isImageLine to capture th
 After calling isImageLine, the urlHolder[0] is checked, and the extracted URL is printed if available.
 
 With this modification, the code not only identifies image lines but also extracts the corresponding image URLs, making it more versatile for image processing tasks.
-
+```java
 import java.io.BufferedReader;  
 import java.io.FileReader;  
 import java.io.IOException;  
@@ -121,12 +123,13 @@ public class MarkdownImageChecker {
         }  
     }  
 }
+```
 这个正则表达式的解释如下：
 
-<img：匹配字面的<img开始标签。
-[^>]+：匹配一个或多个不是>的字符，这确保了我们会匹配到整个<img ... >标签，而不是只到第一个出现的>为止。
-src=["']：匹配src属性后紧跟的=和引号（单引号或双引号）。
-(.*?)：这是一个捕获组，用于匹配并捕获引号之间的URL内容。这里的?表示非贪婪匹配，意味着它会尽可能少地匹配字符。
-["']：匹配结束引号（与开始引号相同的类型）。
-[^>]*>：匹配零个或多个不是>的字符，然后是一个>字符，这确保了我们匹配到标签的结束。
-Pattern.CASE_INSENSITIVE：这是一个编译标志，表示匹配应该是不区分大小写的。这对于HTML属性名（如src）通常是不必要的，因为它们是大小写不敏感的，但在某些情况下可能是有用的。
+<img：匹配字面的<img开始标签。  
+[^>]+：匹配一个或多个不是>的字符，这确保了我们会匹配到整个<img ... >标签，而不是只到第一个出现的>为止。  
+src=["']：匹配src属性后紧跟的=和引号（单引号或双引号）。  
+(.*?)：这是一个捕获组，用于匹配并捕获引号之间的URL内容。这里的?表示非贪婪匹配，意味着它会尽可能少地匹配字符。  
+["']：匹配结束引号（与开始引号相同的类型）。  
+[^>]*>：匹配零个或多个不是>的字符，然后是一个>字符，这确保了我们匹配到标签的结束。  
+Pattern.CASE_INSENSITIVE：这是一个编译标志，表示匹配应该是不区分大小写的。这对于HTML属性名（如src）通常是不必要的，因为它们是大小写不敏感的，但在某些情况下可能是有用的。  
